@@ -3,6 +3,7 @@
 *{
   font-family: 'Sometype Mono', monospace;
   background-repeat: no-repeat;
+  
 }
 
 
@@ -23,6 +24,13 @@ body {
   color: orangered;
   background: black;*/
 
+  .main-dish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+  }
+
 #ancient-tag {
   font-family: 'Courier New';
   background: black;
@@ -30,55 +38,69 @@ body {
   border-radius: 50px;
   border: 6px solid white;
   opacity: 80%;
-  padding: 0px 30px;
   text-align: center;
   font-size: 55px;
-  position: absolute;
-  left: 15%;
-  top: 3%;
+  width: 750px;
+  margin-bottom: 250px;
+  margin-top: 70px;
 }
 
-#para1 {
+#frozen-curses {
   color: teal;
   padding: 15px; 
   background: white;
   opacity: 80%;
   text-align: center;
-  position: absolute;
-  left: 26%;
-  bottom: 86%;
   font-weight: 400;
   font-size: 30px;
+  width: 500px;
   border-radius: 10px;
   border-bottom: 7px solid #5A5A5A;
 }
 
-#para2 {
+#button1 {
+  /* position: absolute;
+  left: 43%;
+  top: 21%; */
+  background-color: darkred;
+  color: whitesmoke;
+  border-radius: 50px;
+  align-content: center;
+  height: 20px;
+  width: 125px;
+  border: 2.5px solid white;
+  box-shadow: 9px 10px 4px 2px black;
+  opacity: 90%;
+}
+
+#first-para {
   color: white;
   padding: 10px; 
   background: black;
   opacity: 70%;
   text-align: center;
   position: absolute;
-  left: 0;
-  bottom: 70%;
+  left: 1%;
+  bottom: 20%;
   font-size: 15px;
   border-radius: 10px;
   font-style: italic;
+  width: 150px;
 }
 
-#para3 {
+#second-para {
   color: white;
   padding: 10px; 
   background: black;
   opacity: 65%;
   text-align: center;
   position: absolute;
-  right: 0;
-  bottom: 77%;
+  right: 1%;
+  bottom: 55%;
   font-size: 12px;
   border-radius: 10px;
   font-style: italic;
+  width: 100px;
 }
 
 #darkred{
@@ -118,21 +140,6 @@ body {
   top: 4.5%;
   color: white; 
   
-}
-
-#button1 {
-  position: absolute;
-  left: 43%;
-  top: 21%;
-  background-color: darkred;
-  color: whitesmoke;
-  border-radius: 50px;
-  align-content: center;
-  height: 20px;
-  width: 125px;
-  border: 2.5px solid white;
-  box-shadow: 9px 10px 4px 2px black;
-  opacity: 90%;
 }
 
 #under-water {

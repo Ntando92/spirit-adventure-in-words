@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Over+the+Rainbow&family=Playfair+Display:wght@500&display=swap');
+
+* {
+ /* font-family: 'Butcherman', serif;*/
+ 
+}
+
+body {
+background-color: black;
+}
+
+#welcome-word {
+  font-size: 80px;
+  position: absolute;
+  font-family: Nosifer;
+  left: 20%;
+  top: 7%;
+  color: cyan;
+  background: #141414;
+  opacity: 75%;
+  padding: 10px;
+  border-radius: 10px;
+  border-top: 30px solid black; 
+  border-bottom: 30px solid black;
+  box-shadow: 45px 45px 20px white;
+}
+
+#img1 {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#lake1 {
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 60%;
+  height: 1300px;
+}
+
+#waterfall1 {
+  width: 100%;
+  position: absolute;
+  top: 5%;
+  left: 0;
+  opacity: 60%;
+  border-bottom: 20px solid black;
+  border-top: 20px solid white;
+}
+
+#snow1 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 70%;
+}
+
+#triangle1 {
+  height: 0;
+  width: 0;
+  border-bottom: 100px solid cyan;
+  border-right: 35px solid transparent;
+  border-left: 35px solid transparent;
+  position: absolute;
+  top: 4.2%;
+  left: 30%;
+  opacity: 50%;
+}
+
+#triangle2 {
+  height: 0;
+  width: 0;
+  border-bottom: 70px solid black;
+  border-right: 25px solid transparent;
+  border-left: 25px solid transparent;
+  position: absolute;
+  top: 5.8%;
+  left: 40%;
+  opacity: 50%;
+}
+
+#triangle3 {
+  height: 0;
+  width: 0;
+  border-bottom: 100px solid lightblue;
+  border-right: 35px solid transparent;
+  border-left: 35px solid transparent;
+  position: absolute;
+  top: 4.2%;
+  left: 76%;
+  opacity: 50%;
+}
+
+#triangle4 {
+  height: 0;
+  width: 0;
+  border-bottom: 40px solid yellow;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  top: 7.4%;
+  right: 30%;
+  opacity: 50%;
+}
+
+#triangle5 {
+  height: 0;
+  width: 0;
+  border-bottom: 40px solid darkblue;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  top: 7.3%;
+  right: 50%;
+  opacity: 50%;
+}
+
+#triangle6 {
+  height: 0;
+  width: 0;
+  border-bottom: 60px solid limegreen;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  position: absolute;
+  top: 6.3%;
+  left: 60%;
+  opacity: 50%;
+}
+
+#triangle7 {
+  height: 0;
+  width: 0;
+  border-bottom: 60px solid pink;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  position: absolute;
+  top: 6.3%;
+  left: 38.5%;
+  opacity: 50%;
+}
+
+#triangle8 {
+  height: 0;
+  width: 0;
+  border-bottom: 55px solid black;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  top: 13%;
+  left: 80%;
+  opacity: 50%;
+}
+
+#wolf-image {
+  opacity: 55%;
+  
+}
+
+#para1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  width:55%;
+  padding: 5px;
+  margin: 5px;
+  left: 0;
+  top: 35%;
+  background: darkcyan;
+  border-radius: 35px;
+  box-shadow: 35px 35px 20px cyan;
+}
+
+#para2 {
+  font-family: Nosifer;
+  color: black;
+  position: absolute;
+  top: 73%;
+  right: 4%;
+  width: 55%;
+  text-align: right;
+  background: white;
+  padding: 10px;
+  border-radius: 40px;
+  box-shadow: 25px 25px 20px orangered;
+}
+
+#para3 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  top: 95%;
+  position: absolute;
+  font-size: 33px;
+}
+
+#para4 {
+  transform: rotate(27deg);
+  font-size: 38px;
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  top: 45%;
+  left: 65%;
+  font-family: 'Over the Rainbow';
+  text-align: center;
+}
+
+#para5 {
+  transform: rotate(-27deg);
+  font-size: 38px;
+  position: absolute;
+  font-weight: 600;
+  color: white;
+  font-family: 'Over the Rainbow';
+  top: 72%;
+  left: 5%;
+}
+
+#btn2 {
+  position: absolute;
+  top: 110%;
+  left: 45%;
+  width: 125px;
+  color: white;
+  background: darkblue;
+  border: 2px solid white;
+  border-radius: 25px;
+  box-shadow: 6px 6px 11px cyan;
+  font-weight: 600;
+  font-family: cursive;
+  font-size: 17px;
+}
